@@ -1,0 +1,46 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+
+.custom {
+    width: 40px !important;
+}
+
+.pad-container {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px 40px;
+    justify-content: center;
+    align-items:center;
+    gap: 0px 10px;
+    grid-template-areas:
+      ". . . ."
+      ". . . ."
+      ". . . ."
+      ". . . .";
+  }
+
+.calculatorContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+}
+
+.resultBox{
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#answer {
+    text-align: right;
+}

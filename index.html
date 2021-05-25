@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="bootstrap-5.0.1-dist/css/mint_bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <main>
+        <div id="calculator" class="calculatorContainer border border-primary border-4">
+            <div id="resultBox" class="resultBox mt-3">
+                <input type="text" class="border border-success py-3 px-2" name="input" size="16" id="answer" readonly>
+            </div>
+            <div class="pad-container my-3">
+                    <div class="myCol"><input type="button" class="btn btn-outline-primary custom num" name="one" value="1"></div>
+                    <div class="myCol"><input type="button" class="btn btn-outline-primary custom num" name="two" value="2"></div>
+                    <div class="myCol"><input type="button" class="btn btn-outline-primary custom num" name="three" value="3"></div>
+                    <div class="myCol"><input type="button" class="operator btn btn-outline-dark custom ope" name="plus" value="+"></div>
+
+                    <div class="myCol"><input type="button" class="btn btn-outline-primary custom num" name="four" value="4"></div>
+                    <div class="myCol"><input type="button" class="btn btn-outline-primary custom num" name="five" value="5"></div>
+                    <div class="myCol"><input type="button" class="btn btn-outline-primary custom num" name="six" value="6"></div>
+                    <div class="myCol"><input type="button" class="operator btn btn-outline-dark custom ope" name="minus" value="-"></div>
+
+                    <div class="myCol"><input type="button" class="btn btn-outline-primary custom num" name="seven" value="7"></div>
+                    <div class="myCol"><input type="button" class="btn btn-outline-primary custom num" name="eight" value="8"></div>
+                    <div class="myCol"><input type="button" class="btn btn-outline-primary custom num" name="nine" value="9"></div>
+                    <div class="myCol"><input type="button" class="operator btn btn-outline-dark custom ope" name="times" value="*"></div>
+
+                    <div class="myCol"><input type="button" class="btn btn-outline-danger custom" id="clear" name="clear" value="C"></div>
+                    <div class="myCol"><input type="button" class="btn btn-outline-primary custom num" name="zero" value="0"></div>
+                    <div class="myCol"><input type="button" class="btn btn-outline-success custom" id="opeEqual" name="doit" value="="></div>
+                    <div class="myCol"><input type="button" class="operator btn btn-outline-dark custom ope" name="div" value="/"></div>
+            </div>        
+        </div>
+    </main>
+</body>
+</html>
